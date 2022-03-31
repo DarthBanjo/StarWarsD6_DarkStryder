@@ -1,0 +1,65 @@
+{
+  "name": "swd6-darkstryder",
+  "title": "The Darkstryder Campaign",
+  "description": "Join the crew of the Corellian Corvette FarStar as they scour the fringes of the Empire in search of Sarne and the source of the DarkStryder technology!\nSent into unexplored space with no support ships or supply stations, the crew of the FarStar must accomplish their mission by any means necessary ...",
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.7.9",
+  "compatibleCoreVersion": "9",
+  "author": "DarthBanjo",
+  "authors": [
+    {
+      "name": "DarthBanjo"
+    }
+  ],
+  "packs": [
+    {
+      "name": "maps",
+      "label": "The Darkstryder Campaign",
+      "path": "/packs/maps.db",
+      "entity": "Scene",
+      "type": "Scene"
+    },
+    {
+      "name": "actors",
+      "label": "The Darkstryder Campaign",
+      "path": "/packs/actors.db",
+      "entity": "Actor",
+      "type": "Actor"
+    },
+    {
+      "name": "journals",
+      "label": "The Darkstryder Campaign",
+      "path": "/packs/journals.db",
+      "entity": "JournalEntry",
+      "type": "JournalEntry"
+    },
+    {
+      "name": "items",
+      "label": "The Darkstryder Campaign",
+      "path": "/packs/items.db",
+      "entity": "Item",
+      "type": "Item"
+    },
+    {
+      "name": "playlists",
+      "label": "The Darkstryder Campaign",
+      "path": "/packs/playlists.db",
+      "entity": "Playlist",
+      "type": "Playlist"
+    }
+  ],
+  "esmodules": [
+    "./scripts/init.js"
+  ],
+  "dependencies": [
+    {
+      "name": "scene-packer",
+      "manifest": "https://github.com/League-of-Foundry-Developers/scene-packer/releases/latest/download/module.json",
+      "type": "module"
+    }
+  ],
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "manifestPlusVersion": "1.2.0"
+}

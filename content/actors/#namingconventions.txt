@@ -1,0 +1,7 @@
+c_ for command crew
+s_ for support crew
+d_ for droid
+gmc_ for gamemaster character
+ship_ for starship
+vehicle_ for vehicle
+z_ for antagonist
